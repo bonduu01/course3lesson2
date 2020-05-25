@@ -1,1 +1,1 @@
-NEW_ALIAS: "{{ application }}-load-balancer-1839090422.us-east-2.elb.amazonaws.com"
+NEW_ALIAS: "{{ application }}-nginx-loadbalancer-250772687.us-west-2.elb.amazonaws.com"
