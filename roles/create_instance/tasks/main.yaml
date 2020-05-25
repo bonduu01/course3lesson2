@@ -23,7 +23,7 @@
       - sg-03da8f0ba1f2e3800
     wait: yes
     instance_tags:
-      Name: bond_server
+      Name: blue_server
       application: "{{ application }}"
     exact_count: 2
     count_tag:
