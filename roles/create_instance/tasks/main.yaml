@@ -16,11 +16,11 @@
   ec2:
     key_name: jumpkey
     instance_type: t2.nano
-    image: ami-0986c2ac728528ac2
+    image: ami-086b16d6badeb5716
     user_data: "{{ USERDATA }}"
     region: us-west-2
     group_id:
-      - ami-086b16d6badeb5716
+      - sg-03da8f0ba1f2e3800
     wait: yes
     instance_tags:
       Name: green_server
