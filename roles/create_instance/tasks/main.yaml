@@ -21,6 +21,7 @@
     region: us-west-2
     group_id:
       - sg-03da8f0ba1f2e3800
+      - sg-03da8f0ba1f2e3800
     wait: yes
     instance_tags:
       Name: green_server
