@@ -1,7 +1,7 @@
 - name: change route53
   route53:
     state: present
-    zone: bonduu01.com
+    zone: www.bonduu01.com
     record: www.bonduu01.com
     failover: SECONDARY
     type: CNAME
